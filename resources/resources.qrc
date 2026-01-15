@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>chiudi1.png</file>
+        <file>chiudi2.png</file>
+        <file>chiudi3.png</file>
+        <file>chiudi4.png</file>
+        <file>chiudi5.png</file>
+	<file>musica1.mp3</file>
+	<file>musica2.mp3</file>
+	<file>musica3.mp3</file>
+	<file>musica4.mp3</file>
+	<file>musica5.mp3</file>
+	<file>musica6.mp3</file>
+	<file>musica7.mp3</file>
+	<file>musica8.mp3</file>
+    </qresource>
+</RCC>
