@@ -1,0 +1,8 @@
+{
+    "cmake.generator": "MinGW Makefiles",
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.configureSettings": {
+        "CMAKE_PREFIX_PATH": "C:/msys64/mingw64"
+    },
+    "cmake.configureOnOpen": true
+}
