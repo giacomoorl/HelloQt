@@ -1,20 +1,23 @@
 {
     "configurations": [
         {
-            "name": "Win32",
+            "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:/msys64/mingw64/include/Qt6",
-                "C:/msys64/mingw64/include/Qt6/QtCore",
-                "C:/msys64/mingw64/include/Qt6/QtGui",
-                "C:/msys64/mingw64/include/Qt6/QtWidgets",
-                "C:/msys64/mingw64/include/Qt6/QtMultimedia"
+                "/usr/include/qt6",
+                "/usr/include/qt6/QtCore",
+                "/usr/include/qt6/QtGui",
+                "/usr/include/qt6/QtWidgets"
             ],
-            "defines": [],
-            "compilerPath": "C:/msys64/mingw64/bin/g++.exe",
+            "defines": [
+                "QT_CORE_LIB",
+                "QT_GUI_LIB",
+                "QT_WIDGETS_LIB"
+            ],
+            "compilerPath": "/usr/bin/g++",
             "cStandard": "c17",
             "cppStandard": "c++17",
-            "intelliSenseMode": "windows-gcc-x64"
+            "intelliSenseMode": "linux-gcc-x64"
         }
     ],
     "version": 4

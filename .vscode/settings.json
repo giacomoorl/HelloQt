@@ -1,8 +1,8 @@
 {
-    "cmake.generator": "MinGW Makefiles",
+    "cmake.generator": "Unix Makefiles",
     "cmake.buildDirectory": "${workspaceFolder}/build",
     "cmake.configureSettings": {
-        "CMAKE_PREFIX_PATH": "C:/msys64/mingw64"
+        "CMAKE_PREFIX_PATH": "/usr/lib/x86_64-linux-gnu/cmake/Qt6"
     },
     "cmake.configureOnOpen": true
 }

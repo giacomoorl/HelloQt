@@ -10,8 +10,8 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
 
     QPushButton* bottone = new QPushButton("Premimi");
-    bottone->setIcon(QIcon(":/chiudi4.png"));
-    bottone->setIconSize(QSize(300,200));
+    bottone->setIcon(QIcon(":/chiudi1.png"));
+    bottone->setIconSize(QSize(500,400));
     bottone->show();
 
     // QMediaPlayer con WAV o MP3
@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
     audioOutput->setVolume(0.5);
 
     // File incluso nelle risorse Qt
-    player->setSource(QUrl("qrc:/musica3.mp3"));
+    player->setSource(QUrl("qrc:/musica7.mp3"));
     player->play();
 
     return a.exec();
