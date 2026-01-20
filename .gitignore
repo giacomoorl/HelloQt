@@ -1,8 +1,25 @@
+# Build system
 build/
 CMakeFiles/
-*.user
-*.user.*
 CMakeCache.txt
 Makefile
 cmake_install.cmake
 HelloQt_autogen/
+
+# IDE / Editor
+*.user
+*.user.*
+.vscode/
+
+# Qt specifici (opzionale)
+*.pro.user
+*.qmake.stash
+*.moc
+*.obj
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+
